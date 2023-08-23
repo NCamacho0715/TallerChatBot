@@ -11,7 +11,7 @@ public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		final String SERVER_ADDRESS = "127.0.0.1";
-		final int SERVER_PORT = 62850;
+		final int SERVER_PORT = 62050;
 
 		try {
 			Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT);
